@@ -1,5 +1,8 @@
+body {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
 
-body,
 h1, h2, h3, h4, h5, h6,
 .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6,
 .uk-text-large {
