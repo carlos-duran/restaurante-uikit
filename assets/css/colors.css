@@ -43,6 +43,18 @@
   border: 1px solid white;
 }
 
+.text-red {
+  color: #f5261f;
+}
+
+.text-yellow {
+  color: #facc5c;
+}
+
+.text-green {
+  color: #abda1e;
+}
+
 /* Borders */
 
 .border-red-top {
