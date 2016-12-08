@@ -7,6 +7,7 @@
 
     <title>El Brasero</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krona+One">
     <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css">
     <link rel="stylesheet" href="vendor/uikit/css/components/slidenav.min.css">
     <link rel="stylesheet" href="vendor/uikit/css/components/dotnav.min.css">
@@ -30,7 +31,7 @@
         <li><img src="assets/images/home/slide3.jpg" alt=""></li>
       </ul>
       <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-        <h1 class="uk-text-xlarge uk-text-contrast uk-text-bold">EL BRASERO</h1>
+        <h1 class="uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
       </div>
       <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
       <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
@@ -41,7 +42,7 @@
       </ul>
     </div>
 
-    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ top: -100, showup: false, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
       <ul class="uk-navbar-nav">
         <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
         <li class="uk-hidden-small uk-active"><a href="inicio.html">inicio</a></li>
@@ -64,9 +65,9 @@
 
     <section class="uk-block uk-block-muted">
       <div class="uk-container uk-container-center uk-text-center">
-        <h3 class="uk-h1 uk-text-bold">BIENVENIDOS</h3>
-        <p class="uk-text-large uk-text-muted uk-text-slim">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h3 class="uk-heading-large text-krona">¡A COMER!</h3>
+        <p class="uk-text-large uk-text-muted uk-text-slim uk-margin-large-bottom">
+          Beciegast nveriti vitaesaert asety kertya aset aplicaboserde nerafae lorem ipsumoditaut. Monsequuntu kerliurase bertasasda buyra sasevar magni dolores eonqui ratione voluptate msequi nesciunt, neque porro quisquamesa dolore nuyfasasertas. Vertyu erauas aitaesa ertyasneo eniptaia desbuays.
         </p>
         <div class="uk-text-center">
           <a href="nosotros.html" class="uk-button-large button">VER MÁS</a>
@@ -80,7 +81,7 @@
         <div class="uk-grid uk-grid-width-small-1-3" data-uk-grid-margin>
           <div>
             <div class="border-red-top"></div>
-            <h2 class="uk-h1">Parrillas</h2>
+            <h2 class="uk-h1">Menú parrillas</h2>
             <img src="assets/images/home/img1.jpg" alt="">
             <p>
               Seius modi tempora incidunut labore et dolore.
@@ -128,7 +129,7 @@
                 <input type="text" class="uk-width-1-1 uk-form-large" placeholder="tunombre@email.com">
               </div>
               <div>
-                <button class="button uk-button-large uk-width-1-1">SUSCRÍBIRSE</button>
+                <button class="button uk-button-large uk-width-1-1">SUSCRÍBETE</button>
               </div>
             </div>
           </div>
@@ -137,27 +138,35 @@
     </section>
 
     <section class="uk-block uk-block-muted">
-      <div class="uk-container uk-container-center uk-text-right">
-        <div class="uk-grid uk-grid-width-medium-1-2">
-          <div class="uk-flex">
-            <div>
-              <h2 class="uk-h1">más popular</h2>
-              <p class="uk-text-slim">
-                Ceaertrsa vaesar rafaes setyeras ertyao lasec vasptai aoertayse squrem ipsum quia dolor. Vsanamet, consect amodi tempora incidunt.
-              </p>
-              <a href="#" class="uk-button uk-button-large">MÁS</a>
+      <div class="uk-container uk-container-center uk-text-center">
+        <div class="uk-grid uk-grid-width-medium-1-2" data-uk-grid-margin>
+          <div>
+            <div class="uk-grid" data-uk-grid-margin>
+              <div class="uk-width-small-1-3 uk-text-center uk-flex-order-last-large">
+                <img src="assets/images/home/img4.jpg" class="uk-border-circle" alt="">
+              </div>
+              <div class="uk-width-small-2-3">
+                <h2 class="uk-h1">más popular</h2>
+                <p class="uk-text-slim">
+                  Ceaertrsa vaesar rafaes setyeras ertyao lasec vasptai aoertayse squrem ipsum quia dolor. Vsanamet, consect amodi tempora incidunt.
+                </p>
+                <a href="#" class="button uk-button-large">MÁS</a>
+              </div>
             </div>
-            <img src="assets/images/home/img4.jpg" class="uk-border-circle uk-margin-large-left" alt="">
           </div>
-          <div class="uk-flex">
-            <div>
-              <h2 class="uk-h1">oferta especial</h2>
-              <p class="uk-text-slim">
-                Daesarfaes setyera krscaertrsa aoertayse squrem ipsum quiertyaodeas laseceras vasptai a dolor. Vsanamet, consect di tempora miaser.
-              </p>
-              <a href="#" class="uk-button uk-button-large">MÁS</a>
+          <div>
+            <div class="uk-grid" data-uk-grid-margin>
+              <div class="uk-width-small-1-3 uk-text-center uk-flex-order-last-large">
+                <img src="assets/images/home/img5.jpg" class="uk-border-circle" alt="">
+              </div>
+              <div class="uk-width-small-2-3">
+                <h2 class="uk-h1">oferta especial</h2>
+                <p class="uk-text-slim">
+                  Daesarfaes setyera krscaertrsa aoertayse squrem ipsum quiertyaodeas laseceras vasptai a dolor. Vsanamet, consect di tempora miaser.
+                </p>
+                <a href="#" class="button uk-button-large">MÁS</a>
+              </div>
             </div>
-            <img src="assets/images/home/img5.jpg" class="uk-border-circle uk-margin-large-left" alt="">
           </div>
         </div>
       </div>
@@ -165,11 +174,11 @@
 
     <section class="uk-block uk-block-large uk-contrast uk-cover-background" style="background-image: url('assets/images/home/bg.jpg')">
       <div class="uk-container uk-container-center uk-text-center">
-        <h1 class="uk-heading-large uk-text-bold">MEJORES POSTRES</h1>
-        <p class="uk-text-large uk-text-slim">
+        <h4 class="uk-heading-large text-krona">MEJORES<br>POSTRES</h4>
+        <p class="uk-text-large">
           Ceplicaboserde miuas nerafae kertyerauas vitaesa eniptaiad esertyatya nemo
         </p>
-        <a href="#" class="uk-button uk-button-large">MÁS</a>
+        <a href="#" class="button button-transparent border-white uk-button-large">VER MÁS</a>
       </div>
     </section>
 
@@ -177,11 +186,9 @@
     <div class="uk-block uk-block-large">
       <div class="uk-container uk-container-center">
         <div class="uk-flex uk-flex-space-around uk-flex-wrap">
-          <div class="uk-margin-large-bottom uk-container">
-            <a href="inicio.html">
-              <h4 class="uk-h1">El Brasero</h4>
-              <h4>&copy; 2016</h4>
-            </a>
+          <div class="uk-margin-large-bottom uk-container uk-text-center">
+            <h4 class="uk-h1 text-krona"><a class="uk-link-reset" href="inicio.html">EL BRASERO</a></h4>
+            <h4>&copy; 2016</h4>
           </div>
           <div class="uk-margin-large-bottom uk-container">
                 <a class="uk-icon-button uk-icon-hover uk-icon-facebook uk-margin-small-right" href="https://www.facebook.com/ElBraseroOficial/?fref=ts"></a>

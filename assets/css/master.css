@@ -3,7 +3,11 @@ body,
 h1, h2, h3, h4, h5, h6,
 .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6,
 .uk-text-large {
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-krona {
+  font-family: 'Krona One', sans-serif;
 }
 
 .uk-text-slim {
