@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>El Brasero</title>
+
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/dotnav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/sticky.min.css">
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/components/slideshow.min.js"></script>
+    <script src="vendor/uikit/js/components/sticky.min.js"></script>
+  </head>
+  <body>
+
+    <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/master/header-bg.jpg')">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <h1 class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
+      </div>
+    </div>
+
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+      <ul class="uk-navbar-nav">
+        <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
+        <li class="uk-hidden-small uk-active"><a href="inicio.html">inicio</a></li>
+        <li class="uk-hidden-small"><a href="nosotros.html">nosotros</a></li>
+        <li class="uk-hidden-small"><a href="platos.html">platos</a></li>
+        <li class="uk-hidden-small"><a href="contacto.html">contacto</a></li>
+      </ul>
+    </nav>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-offcanvas">
+          <li class="uk-active"><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="platos.html">Platos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center">
+        <h2 class="uk-h1 uk-text-slim uk-text-center uk-margin-large-bottom">
+          Unas palabras acerca de nosotros
+        </h2>
+        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+          <div class="uk-width-medium-3-10 uk-text-center">
+            <img src="assets/images/nosotros/img1.jpg" alt="">
+          </div>
+          <div class="uk-width-medium-7-10">
+            <p>
+              Donec euismod imperdiet feugiat. Vivamus non interdum eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tristique ut lacus et scelerisque.
+            </p>
+            <p class="uk-text-muted uk-text-slim">
+              Suspendisse potenti. Sed fermentum, libero eget euismod convallis, justo lectus egestas dui, eu tempor lectus risus a dolor. Suspendisse tempor quam purus, sit amet feugiat sapien molestie nec. Sed aliquam, justo ut pharetra dapibus, leo risus iaculis nulla, ut sagittis nunc diam lobortis metus. Nulla pulvinar odio vitae nisl dignissim, id rutrum lorem molestie. Maecenas euismod hendrerit risus, ut congue arcu tincidunt sed. Nullam at ipsum vel ante interdum lobortis. Etiam quis ultricies enim, in venenatis sapien. Phasellus interdum consectetur enim, venenatis eleifend urna sed nulla id magna placerat hendrerit.
+            </p>
+            <a href="" class="button uk-button-large">MÁS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block">
+      <div class="uk-container uk-container-center">
+        <div class="uk-grid uk-grid-width-medium-1-3">
+          <div>
+            <h3 class="uk-h1 uk-text-slim">Nuestra Misión y Valores</h3>
+            <p>
+              Seius modi tempora incidunut labore et dolore.
+            </p>
+            <p class="uk-text-muted">
+              Fratione uptate mseesciun neque porroisqm estrem equia dolorer ntreterase geryiuyasa miertase.
+            </p>
+            <ul class="uk-list">
+              <li><i class="uk-icon-check uk-icon-align-justify text-red"></i> Lorem ipsum dolor sit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="uk-block">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <div class="uk-flex uk-flex-space-around uk-flex-wrap">
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <h4 class="uk-h1 uk-margin-small-bottom text-krona"><a class="uk-link-reset" href="inicio.html">EL BRASERO</a></h4>
+            <h4 class="uk-margin-small-top">&copy; 2016</h4>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <a class="uk-icon-button uk-icon-facebook uk-margin-small-right" href="https://www.facebook.com/ElBraseroOficial/?fref=ts"></a>
+            <a class="uk-icon-button uk-icon-twitter uk-margin-small-right" href=""></a>
+            <a class="uk-icon-button uk-icon-google-plus uk-margin-small-right" href=""></a>
+            <a class="uk-icon-button uk-icon-pinterest-p uk-margin-small-right" href=""></a>
+            <a class="uk-icon-button uk-icon-instagram uk-margin-small-right" href=""></a>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-slim">
+            <p class="uk-text-muted uk-h2">
+              <span>Av. Venezuela 718 </span><br>
+              <span>Breña </span><br>
+              <span class="uk-h3">A media cuadra de Metro</span>
+            </p>
+            <p class="uk-h3">informes@elbrasero.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-secondary uk-padding-top-remove"></div>
+
+  </body>
+</html>
