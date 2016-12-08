@@ -1,0 +1,7 @@
+/* latin */
+@font-face {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Krona One'), local('KronaOne-Regular'), url(../fonts/krona-one.woff2) format('woff2');
+  uni
