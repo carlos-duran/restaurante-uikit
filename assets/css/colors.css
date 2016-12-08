@@ -1,9 +1,16 @@
 .button {
-  padding: 12px 30px;
+  padding: 0px 30px;
   color: white;
   background: #454545;
-  border-radius: 3px;
   transition: all .3s;
+  border: 0;
+  cursor: pointer;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.button.uk-button-large {
+  line-height: 40px;
 }
 
 .button:hover,
@@ -12,6 +19,7 @@
   color: white;
   text-decoration: none;
   opacity: .7;
+  outline: 0;
 }
 
 .button-red {

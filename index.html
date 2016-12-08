@@ -41,15 +41,14 @@
       </ul>
     </div>
 
-    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top' }">
-      <ul class="uk-navbar-nav uk-hidden-small">
-        <li class="uk-active"><a href="inicio.html">inicio</a></li>
-        <li><a href="nosotros.html">nosotros</a></li>
-        <li><a href="platos.html">platos</a></li>
-        <li><a href="contacto.html">contacto</a></li>
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+      <ul class="uk-navbar-nav">
+        <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
+        <li class="uk-hidden-small uk-active"><a href="inicio.html">inicio</a></li>
+        <li class="uk-hidden-small"><a href="nosotros.html">nosotros</a></li>
+        <li class="uk-hidden-small"><a href="platos.html">platos</a></li>
+        <li class="uk-hidden-small"><a href="contacto.html">contacto</a></li>
       </ul>
-      <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Menu</div>
-      <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'slide'}"></a>
     </nav>
 
     <div id="offcanvas" class="uk-offcanvas">
@@ -129,7 +128,7 @@
                 <input type="text" class="uk-width-1-1 uk-form-large" placeholder="tunombre@email.com">
               </div>
               <div>
-                <button class="uk-button uk-button-primary uk-button-large uk-width-1-1">SUSCRÍBIRSE</button>
+                <button class="button uk-button-large uk-width-1-1">SUSCRÍBIRSE</button>
               </div>
             </div>
           </div>
